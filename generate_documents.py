@@ -14,6 +14,12 @@ import os
 import names
 import random
 import json
+
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger')
+
 with open('config.json') as f:
     config = json.load(f)
 def createDocument(text, title, folder):

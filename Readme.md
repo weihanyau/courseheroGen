@@ -1,6 +1,6 @@
-# Document Generator
+# CourseHero Document Generator
 
-Document Generator is a Python3 script to automatically generate documents. This project works by paraphrasing existing wikipedia articles and writing the paraphrased text to a word document that you can upload to coursehero. These documents can be used for various purposes including uploading to Coursehero.
+CourseHero Document Generator is a Python3 script to automatically generate documents. This project works by paraphrasing existing wikipedia articles and writing the paraphrased text to a word document that you can upload to coursehero. These documents can be used for various purposes including uploading to Coursehero.
 
 ## Installation
 
@@ -12,14 +12,8 @@ pip install -r requirements.txt
 
 ## Usage
 
-![demo](https://github.com/rvaidun/Document-Generator/raw/master/demo.gif)
+Configure the wikipedia article you want to generate your documents on in the config.json file.
 
 ```python
-python3 generate_documents.py insert_wikipedia_article_name
+python generate_documents.py <Number of documents you wants to generate>
 ```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
